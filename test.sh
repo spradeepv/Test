@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "Hi"
+echo "Hi!"
 echo {{ secrets.TEST_TOKEN }}
