@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "Hi $1"
+echo "Hi $TEST_TOKEN"
