@@ -17,3 +17,7 @@ jobs:
         echo test, and deploy your project.
         echo ${{ secrets.TEST_TOKEN }}
         sh test.sh
+    - name: Test
+      env:
+        TEST_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: echo $TEST_TOKEN
