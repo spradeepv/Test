@@ -15,9 +15,7 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        echo ${{ secrets.TEST_TOKEN }}
-        sh test.sh
     - name: Test
       env:
         TEST_TOKEN: ${{ secrets.TEST_TOKEN }}
-      run: echo $TEST_TOKEN
+      run: sh test.sh $TEST_TOKEN
