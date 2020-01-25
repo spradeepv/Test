@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
-echo {{ secrets.TEST_TOKEN }}
+echo "Hi $TEST_TOKEN"
